@@ -1,0 +1,30 @@
+.form-row{
+    margin-bottom: .4rem;
+    height: 2.93333rem;
+    border: .06667rem solid #DADADA;
+    font-size: .86667rem;
+    padding-left: 1rem;
+    line-height: 1.06667rem;
+    padding-top: 4px
+}
+
+.logoImages{
+    padding-top: 20px;
+}
+
+.payMentText{
+    padding-bottom: 10px;
+}
+
+.cards{
+    padding:10px;
+}
+
+.card-row{
+    padding:8px;
+}
+
+.headerPayment{
+    margin-left: 1em;
+    margin-top: 10px;
+}

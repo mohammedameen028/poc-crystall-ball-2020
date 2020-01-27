@@ -1,0 +1,141 @@
+{
+    "hits": {
+        "total": 12505,
+        "max_score": 7.558071,
+        "hits": [
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "396fccc1b6b0485fd75bd3fa640d5b6c",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "9a2e4ad5ee13794039383d57a9c40bc3",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "7dad28832ed18a197926d4eb5af04d0d",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "149f82d853f91b0500254d7c6e2559c7",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "a89d3ebb149fc3764d4c2c16e5b140f9",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "64f52a9c3495ea5b47aeffa5cdd1a0b9",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "f06054c61f1be7517b940c7ac3dae2bf",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "4d93f93684e5a23ac66919e454979da4",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "207b8d17842b10c0226773853cf4fc22",
+                "_score": 7.558071,
+                "_source": {}
+            },
+            {
+                "_index": "watson_web_article_searchview_internalversion_1",
+                "_type": "web_article",
+                "_id": "5e611b4df227b341fb68c24aa9b24cc2",
+                "_score": 7.558071,
+                "_source": {}
+            }
+        ]
+    },
+    "found": 12505,
+    "entities": [
+        {
+            "asset_url": "https://www.myrecipes.com/syndication/impossible-whopper-burger-king-comparison",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1564762625/impossible-whopper-taste-test-FT-BLOG0819.jpg",
+            "headline": "Here's How the Impossible Whopper Compares to an All-Beef Whopper"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/syndication/popeyes-chicken-sandwich-return-date-2019",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/popeyes-chicken-sandwich-return-ft-blog1019.jpg",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/kfc-mac-cheese-bowls",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1566506839/KFC_Mac%20%26%20Cheese%20Bowls%20Original%20%2B%20Spicy.jpg",
+            "headline": "Inside the Making of KFC's New Mac & Cheese Bowls"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/taste-tests/best-fast-food-mozzarella-sticks",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1562861106/sonic-mozz.png",
+            "headline": "A Definitive Ranking of the Best Fast-Food Mozzarella Sticks"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/wendys-baconfest",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1563298220/wendys-cheeseburger.png",
+            "headline": "Wendy's Is Giving Away Jr. Bacon Cheeseburgers During Baconfest"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/kfc-plant-based-chicken",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1566835191/mr%20Beyond%20Fried%20Chicken.jpg",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/peeled-chicken-nuggets",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1557775147/Screen%20Shot%202019-05-13%20at%202.20.17%20PM.png",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/ruby-tuesday-mac-cheeseburger",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1571680713/Screen%20Shot%202019-10-21%20at%2012.55.04%20PM.png",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/burger-king-spicy-chicken-nuggets",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/screen_shot_2019-02-27_at_11.06.29_am.png",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/news/carls-jr-cbd-burger",
+            "brand": "myrecipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1555520190/57154260_10161624400910456_1582550510609629184_n.jpg",
+            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+        }
+    ]
+}
