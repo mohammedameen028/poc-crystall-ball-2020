@@ -8,6 +8,7 @@ import './index.css'
 import brands from './brands.json'
 import categories from './categories.json'
 import IconButton from '@material-ui/core/IconButton';
+import { Link } from 'react-router-dom';
 
 
 function TabPanel(props) {
@@ -47,19 +48,30 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(4),
     textAlign: "center",
-    color: theme.palette.text.secondary
-  }
+    color: theme.palette.text.secondary,
+    //backgroundColor:"#8a8aff"
+  },
+  appBar: {
+    borderBottom: `1px solid ${theme.palette.divider}`,
+  },
+  toolbar: {
+    flexWrap: 'wrap',
+  },
+  toolbarTitle: {
+    flexGrow: 1,
+  },
+  link: {
+    margin: theme.spacing(1, 1.5),
+  },
 }));
-
 
 export default function FullWidthTabs(props) {
   const classes = useStyles();
   const theme = useTheme();
   const [value, setValue] = useState(0);
-  const [state, setState] = useState({AllFilters:[], loading:true})
-  const Categories = [ "Food", "Health", "Fittness", "Sports", "Fun", "People", "politics", "Entertainment", "Hobbies", "Vegan", "PanCakes", "Values", "Business", "Straegies", "Exercise"];
+  const [state, setState] = useState({AllFilters:[], loading:true, showButton: true})
   const {data} = brands
-  const {data1} = categories
+  const {categoriesData} = categories
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -80,17 +92,40 @@ export default function FullWidthTabs(props) {
   };
 
 
-const handleClick = (e, name) => {
-  setState({
-    AllFilters: [...state.AllFilters,name]
-  })
+  const handleClick = (e, name, key) => {
+    data[key].selected = !data[key].selected
+    setState(prevState => ({
+      ...prevState,
+      AllFilters: [...state.AllFilters, name],
+      showButton : data[key].selected
+    }))
+    state.showButton ? e.currentTarget.style.backgroundColor = "#BDD9B1" : e.currentTarget.style.backgroundColor = "white"
+  }
+
+  const handleClick1 = (e, name, key) => {
+    categoriesData[key].selected = !categoriesData[key].selected
+    setState(prevState => ({
+      ...prevState,
+      AllFilters: [...state.AllFilters, name],
+      showButton : categoriesData[key].selected
+    }))
+    state.showButton ? e.currentTarget.style.backgroundColor = "#BDD9B1" : e.currentTarget.style.backgroundColor = "white"
+  }
+// const handleClick = (e, name) => {
+ 
+
   
-}
+//   setState({
+//     AllFilters: [...state.AllFilters,name],
+//     color:"green"
+//   })
+  
+// }
 
 const handleSubmit = (e, props) => {
   console.log("submit The value!!!");
   props.history.push({
-    pathname: `/Subscription`,
+    pathname: `/Login`,
     state: {AllFilters:state.AllFilters}
   });
 }
@@ -117,23 +152,49 @@ if(state.loading){
 }else{
   return (
     <div>
-      <AppBar position="static">
-        <Toolbar variant="dense" style={{ background: "white" }}>
-          <Typography variant="h6" color="primary">
+      <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
+        <Toolbar className={classes.toolbar} variant="dense" style={{ background: "white", height:"75px" }}>
+          <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
             <img src={image1} alt="Meredith Logo" />
           </Typography>
+          <nav>
+            <Link variant="button" color="textPrimary" href="/Subscription" to="/Subscription" className={classes.link} style={{fontWeight:"normal"}}>
+              Subscribe
+            </Link>
+            <Link variant="button" color="textPrimary" href="/Login" to="/Login" className={classes.link} style={{fontWeight:"normal"}}>
+              Sign in
+            </Link>
+            <Link variant="button" color="textPrimary" href="/Login" to="/Login" className={classes.link} style={{fontWeight:"normal"}}>
+              Support
+            </Link>
+          </nav>
+          <p href="/Login" color="primary" variant="outlined" className={classes.link} style={{fontWeight:"normal"}}>
+            My Account
+          </p>
         </Toolbar>
       </AppBar>
+
+      {/* <AppBar position="static"> */}
+        {/* <Toolbar variant="dense" style={{ background: "white", height:"75px" }}> */}
+          {/* <Typography variant="h6" color="primary"> */}
+            {/* <img src={image1} alt="Meredith Logo" /> */}
+            {/* <Link to="/Subscription" style={{ textDecoration: 'none', color: 'black', fontSize:"16px",  display: "block", align: 'right', float:"right"}}>&nbsp;&nbsp;Subscribe</Link> */}
+            {/* <Link to="/Login" style={{ textDecoration: 'none', color: 'black' , fontSize:"16px"}}>&nbsp;&nbsp;Sign in</Link> */}
+          {/* </Typography> */}
+        {/* </Toolbar> */}
+      {/* </AppBar> */}
       
      
         <AppBar position="static" color="default">
           <div className="chip">
           <div className="headLine">
-            Selected Filters:
+            {/* Selected Filters: */}
+            <p style={{textAlign:"center", fontSize:"46px", fontFamily:"medium-marketing-display-font, Cambria, Times, serif"}}>A customizable reading experience, made just for you.</p>
+            <p style={{textAlign:"center", fontWeight:"normal", fontSize:"23px", lineHeight:"26pt"}}>With the ability to follow your favorite topics, writers, and magazines, you’re in control of your<br/>reading experience. So the content that matter most to you are always at your fingertips.</p>
           </div>
-            {state.AllFilters.map((i, k) => {
+            {/* {state.AllFilters.map((i, k) => {
               return <Chip className="categoryChip" label={i} onDelete={(e) =>{handleDelete(e,i)} } color="primary" />;
-            })}
+            })} */}
           </div>
           <Tabs
             value={value}
@@ -156,11 +217,11 @@ if(state.loading){
           <div className={classes.root}>
           <Grid container spacing={1}>
             <Grid container item xs={12} spacing={3}>
-                {data.map(item => {
+                {data.map((item,key) => {
                   return (
-                    <Grid item xs={3}>
-                      <Paper className={classes.paper}>
-                        <ButtonBase onClick={(e) => {handleClick(e, item.name)}}>
+                    <Grid item xs={3} >
+                      <Paper  name = {item.name} className={classes.paper} >
+                        <ButtonBase key= {key} onClick={(e) => {handleClick(e, item.name, key)}}>
                           <img
                             className="imageScr"
                             alt={item.name}
@@ -169,9 +230,9 @@ if(state.loading){
                             height="180px"
                           />
                         </ButtonBase>
-                        <Typography gutterBottom variant="subtitle1">
+                        {/* <Typography gutterBottom variant="subtitle1">
                           {item.name}
-                        </Typography>
+                        </Typography> */}
                       </Paper>
                     </Grid>
                   );
@@ -182,37 +243,13 @@ if(state.loading){
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
           <div className={classes.root}>
-          <GridList cellHeight={180} className={classes.gridList}>
-            <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
-              <ListSubheader component="div">Categories</ListSubheader>
-           </GridListTile>
-           {data1.map(item => {
-                  return (
-                    <GridListTile onClick={(e) => {handleClick(e, item.name)}}>
-                            <img
-                            alt={item.name}
-                            src={`./${item.name}.jpg`}
-                          />
-                  <GridListTileBar
-                    title={item.name}
-                    subtitle={<span>{item.name}</span>}
-                    actionIcon={
-                      <IconButton aria-label={`info about ${item.name}`} className={classes.icon}>
-                        {/* <InfoIcon /> */}
-                      </IconButton>
-                    }
-                  />
-                    </GridListTile>
-                  );
-           })}
-          </GridList>
-          {/* <Grid container spacing={1}>
+          <Grid container spacing={1}>
             <Grid container item xs={12} spacing={3}>
-                {data1.map(item => {
+                {categoriesData.map((item,key) => {
                   return (
                     <Grid item xs={3}>
                       <Paper className={classes.paper}>
-                        <ButtonBase onClick={(e) => {handleClick(e, item.name)}}>
+                        <ButtonBase  key={key} onClick={(e) => { handleClick1(e, item.name, key)}}>
                           <img
                             className="imageScr"
                             alt={item.name}
@@ -222,14 +259,40 @@ if(state.loading){
                           />
                         </ButtonBase>
                         <Typography gutterBottom variant="subtitle1">
-                          {item.name}
+                          {item.name.toUpperCase()}
                         </Typography>
                       </Paper>
                     </Grid>
                   );
                 })}
               </Grid>
-            </Grid> */}
+            </Grid>    
+
+          {/* <GridList cellHeight={180} className={classes.gridList}>
+            <GridListTile key="Subheader" cols={4} style={{ height: 'auto' }}>
+              <ListSubheader component="div">Categories</ListSubheader>
+           </GridListTile>
+           {categoriesData.map(item => {
+                  return (
+                   
+                    <GridListTile  onClick={(e) => {handleClick(e, item.name)}}>
+                            <img
+                            alt={item.name}
+                            src={`./${item.name}.jpg`}
+                          />
+                  <GridListTileBar
+                    title={item.name}
+                    subtitle={<span>{item.name}</span>}
+                    actionIcon={
+                      <IconButton aria-label={`info about ${item.name}`} className={classes.icon}>
+                       
+                      </IconButton>
+                    }
+                  />
+                    </GridListTile>
+                  );
+           })}
+          </GridList> */}
             </div>
           </TabPanel>
         </SwipeableViews>

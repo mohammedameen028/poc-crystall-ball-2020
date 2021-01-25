@@ -1,66 +1,78 @@
 {
-    "data1": [
+    "categoriesData": [
     {
             "id":"095769961482edee01a241e51a074103",
             "name":"food",
-            "logo":"https://secureimages.allrecipes.com/ar-images/ARlogo.svg"
+            "logo":"https://secureimages.allrecipes.com/ar-images/ARlogo.svg",
+            "selected": false
     },
     {
             "id":"095769961482edee01a241e51a074103",
             "name":"people",
-            "logo":"https://onecms.io/wp-content/themes/onecms-myrecipes/assets/logos/color.svg"
+            "logo":"https://onecms.io/wp-content/themes/onecms-myrecipes/assets/logos/color.svg",
+            "selected": false
     },
    
     {
     "id": "b494859f2323f8535dc15df547f2e8df",
     "name": "pancake",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/coastalliving_logo.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/coastalliving_logo.svg",
+    "selected": false
     },
     {
     "id": "208ef5ec7e138fb2e9f40668a9364589",
     "name": "sport",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/cookinglight_logo.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/cookinglight_logo.svg",
+    "selected": false
     },
     {
     "id": "c84a254a82017abff0d5e695cfdca415",
     "name": "fitness",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/foodwine_logo.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/foodwine_logo.svg",
+    "selected": false
     },
     {
     "id": "1d67f483b0000b31473fe9a1708e68eb",
     "name": "fun",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golf_logo1.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golf_logo1.svg",
+    "selected": false
     },
     {
     "id": "f428df0e3a6c3bbe73b4bed1e0831bb7",
     "name": "entertainment",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golfmonthly_logo.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golfmonthly_logo.svg",
+    "selected": false
     },
     {
             "id": "c3edc06c3a4a9e103f4c76a28d08abda",
             "name": "politics",
-            "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/instyle_logo.svg"
+            "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/instyle_logo.svg",
+            "selected": false
     },
     {
     "id": "32a2f3e0dee8d733d4209c5752423859",
     "name": "business",
-    "logo": "http://img2.timeinc.net/health/static/i/health-logo-blue.png"
+    "logo": "http://img2.timeinc.net/health/static/i/health-logo-blue.png",
+    "selected": false
     },
     {
     "id": "c8c71147a8e83c2b93b5ff4557028096",
     "name": "vegan",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/homesandgardens_logo_wht.svg"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/homesandgardens_logo_wht.svg",
+    "selected": false
     },
     
     {
     "id": "2920fa3cc18179e973eeaf1a6fe9728c",
     "name": "strategy",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1920px-LIFE_magazine_logo.svg.png"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1920px-LIFE_magazine_logo.svg.png",
+    "selected": false
     },
     {
     "id": "c60782e796be662c6177242f89351537",
     "name": "exersice",
-    "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/people_logo1.png"
+    "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/people_logo1.png",
+    "selected": false
     }
     ],
     "timestamp": "2020-01-13T15:17:35.231634"

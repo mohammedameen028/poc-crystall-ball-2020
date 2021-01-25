@@ -78,64 +78,152 @@
     "found": 12505,
     "entities": [
         {
-            "asset_url": "https://www.myrecipes.com/syndication/impossible-whopper-burger-king-comparison",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1564762625/impossible-whopper-taste-test-FT-BLOG0819.jpg",
-            "headline": "Here's How the Impossible Whopper Compares to an All-Beef Whopper"
+            "asset_url": "http://www.foodandwine.com/recipes/molten-chocolate-cake-raspberry-filling",
+            "$imageThumbnailUrl": "http://cdn-image.foodandwine.com/sites/default/files/200809-r-molten-raspberry.jpg",
+            "brand": "Food and Wine",
+            "headline": "Molten Chocolate Cake with Raspberry Filling",
+            "ERT": "1 hour"
         },
         {
-            "asset_url": "https://www.myrecipes.com/syndication/popeyes-chicken-sandwich-return-date-2019",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/popeyes-chicken-sandwich-return-ft-blog1019.jpg",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "http://www.health.com/health/recipe/0,,50400000124824,00.html",
+            "$imageThumbnailUrl": "http://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/whipped-cream-XL.jpg",
+            "brand": "Health",
+            "headline": "Classic Whipped Cream",
+            "ERT": "1 hour"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/kfc-mac-cheese-bowls",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1566506839/KFC_Mac%20%26%20Cheese%20Bowls%20Original%20%2B%20Spicy.jpg",
-            "headline": "Inside the Making of KFC's New Mac & Cheese Bowls"
+            "asset_url": "https://www.myrecipes.com/holidays-and-occasions/thanksgiving-recipes/make-sheet-cake-instead-of-pie-for-thanksgiving",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/derbycake.jpg?itok=ux8Ar5pi",
+            "brand": "My recipes",
+            "headline": "Why You Should Make Sheet Cake of Pie"
         },
         {
-            "asset_url": "https://www.myrecipes.com/taste-tests/best-fast-food-mozzarella-sticks",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1562861106/sonic-mozz.png",
-            "headline": "A Definitive Ranking of the Best Fast-Food Mozzarella Sticks"
+            "asset_url": "https://people.com/food/the-ultimate-celebrity-wedding-cakes/",
+            "$imageThumbnailUrl": "https://peopledotcom.files.wordpress.com/2019/08/the-rock-1.jpg",
+            "brand": "People",
+            "headline": "See the Best Celebrity Wedding Cakes",
+            "ERT":"45 mins"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/wendys-baconfest",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1563298220/wendys-cheeseburger.png",
-            "headline": "Wendy's Is Giving Away Jr. Bacon Cheeseburgers During Baconfest"
+            "asset_url": "https://www.foodandwine.com/recipes/coconut-raspberry-thumbprints",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/fw200712_r_coconutraspberry.jpg",
+            "brand": "Food and Wine",
+            "headline": "Coconut-Raspberry Thumbprints"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/kfc-plant-based-chicken",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1566835191/mr%20Beyond%20Fried%20Chicken.jpg",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "https://www.health.com/food/what-5-dietitians-order-at-the-cheesecake-factory",
+            "$imageThumbnailUrl": "https://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/image/cheesecake-factory-menu.jpg?itok=DPewkHcg",
+            "brand": "Health",
+            "headline": "What 5 Dietitians Order at The Cheesecake Factory"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/peeled-chicken-nuggets",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1557775147/Screen%20Shot%202019-05-13%20at%202.20.17%20PM.png",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "https://www.foodandwine.com/recipes/flaky-pear-pie",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/200612_pie.jpg",
+            "brand": "Food and Wine",
+            "headline": "Flaky Pear Pie"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/ruby-tuesday-mac-cheeseburger",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1571680713/Screen%20Shot%202019-10-21%20at%2012.55.04%20PM.png",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "https://www.realsimple.com/health/cucumber-swiss-cheese",
+            "headline": "Sliced Cucumbers and Light Swiss Cheese",
+            "brand": "Real Simple",
+            "$imageThumbnailUrl": "https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/image/images/0908/snack-cucumber-swiss_300.jpg"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/burger-king-spicy-chicken-nuggets",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/screen_shot_2019-02-27_at_11.06.29_am.png",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "https://www.health.com/weight-loss/keto-friendly-restaurants",
+            "headline": "6 Keto-Friendly Restaurants for When You’re Too Beat to Cook",
+            "brand": "Health",
+            "$imageThumbnailUrl": "https://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/best-keto-fast-food-chipotle_0.jpg"
         },
         {
-            "asset_url": "https://www.myrecipes.com/news/carls-jr-cbd-burger",
-            "brand": "myrecipes",
-            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/1555520190/57154260_10161624400910456_1582550510609629184_n.jpg",
-            "headline": "The Popeyes Chicken Sandwich Is Officially Returning"
+            "asset_url": "https://www.bhg.com/kitchen/remodeling/makeover/weekend-kitchen-makeover/",
+            "headline": "Weekend Kitchen Makeover",
+            "brand": "Better Homes & Gardens",
+            "$imageThumbnailUrl": "https://images-eu.ssl-images-amazon.com/images/I/5193DFdZadL._SX342_QL70_ML2_.jpg"
+        },
+        {
+            "asset_url": "https://www.foodandwine.com/recipes/chocolate-raspberry-swiss-roll",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/200612_swissroll.jpg",
+            "brand": "Food and Wine",
+            "headline": "Chocolate-Raspberry Swiss Roll",
+            "ERT":"1 hour"
+        },
+        {
+            "asset_url": "https://people.com/parents/apple-martin-kaia-gerber-celeb-kids-following-in-parents-footsteps/",
+            "headline": "15 Celeb Kids Who Are Following in Their Parents' Famous Footsteps",
+            "brand": "People",
+            "$imageThumbnailUrl": "https://peopledotcom.files.wordpress.com/2018/06/gettyimages-823094148_preview.jpg"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/how-to/simple-ways-to-declutter-your-kitchen",
+            "headline": "7 Simple Ways to Declutter Your Kitchen",
+            "brand": "My Recipes",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/field/image/pr_7311_hmwals101219103_0.jpg"
+        },
+        {
+            "asset_url": "https://www.foodandwine.com/recipes/lemony-butter-cookies",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/original-201401-r-lemony-butter-cookies.jpg",
+            "brand": "Food and Wine",
+            "headline": "Lemony Butter Cookies"
+        },
+        {
+            "asset_url": "https://www.realsimple.com/food-recipes/browse-all-recipes/grilled-halloumi-salad-recipe",
+            "headline": "Grilled Halloumi Salad Recipe",
+            "brand": "Real Simple",
+            "$imageThumbnailUrl": "https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/1557410625/halloumi-salad-0619din.jpg"
+        },
+        {
+            "asset_url": "https://www.health.com/food/everything-you-must-know-about-storing-thanksgiving-leftovers",
+            "headline": "Exactly How Long You Can Save Your Favorite Thanksgiving Leftovers",
+            "brand": "Health",
+            "$imageThumbnailUrl": "https://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/image/thanksgiving-leftovers.jpg"
+        },
+        {
+            "asset_url": "http://www.myrecipes.com/syndication/bacteria-killing-light",
+            "headline": "The $90 Light That Kills Bacteria in Your Kitchen Forever",
+            "brand": "My Recipes",
+            "$imageThumbnailUrl": "https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/ellumilight.jpg"
+        },
+        {
+            "asset_url": "https://www.foodandwine.com/recipes/flaugnarde-pears",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/original-201303-r-flaugnarde-with-pears.jpg",
+            "brand": "Food and Wine",
+            "headline": "Flaugnarde with Pears"
+        },
+        {
+            "asset_url": "https://www.myrecipes.com/holidays-and-occasions/thanksgiving-recipes/make-sheet-cake-instead-of-pie-for-thanksgiving",
+            "$imageThumbnailUrl": "https://cdn-image.myrecipes.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/derbycake.jpg?itok=ux8Ar5pi",
+            "brand": "My Recipes",
+            "headline": "Why You Should Make Sheet Cake of Pie"
+        },
+        {
+            "asset_url": "https://www.bhg.com/kitchen/remodeling/makeover/weekend-kitchen-makeover/",
+            "headline": "How to Repurpose Filing Cabinets",
+            "brand": "Better Homes & Gardens",
+            "$imageThumbnailUrl": "https://images-eu.ssl-images-amazon.com/images/I/5193DFdZadL._SX342_QL70_ML2_.jpg"
+        },
+        {
+            "asset_url": "https://www.realsimple.com/food-recipes/browse-all-recipes/asparagus-sesame-salad",
+            "headline": "Asparagus Sesame Salad",
+            "brand": "Real Simple",
+            "$imageThumbnailUrl": "https://cdn-image.realsimple.com/sites/default/files/styles/rs_horizontal_image_4/public/image/images/food-recipes/cooking-tips/0105/asparagus-6_300.jpg"
+        },
+        {
+            "asset_url": "https://www.health.com/nutrition/pickle-juice-hangover",
+            "headline": "Can Pickle Juice Really Cure a Hangover?",
+            "brand": "Health",
+            "$imageThumbnailUrl": "https://cdn-img.health.com/sites/default/files/styles/medium_16_9/public/styles/main/public/pickle-juice-gettyimages-670954154.jpg"
+        },
+        {
+            "asset_url": "https://www.foodandwine.com/recipes/chocolate-raspberry-swiss-roll",
+            "$imageThumbnailUrl": "https://cdn-image.foodandwine.com/sites/default/files/200612_swissroll.jpg",
+            "brand": "Food and Wine",
+            "headline": "Chocolate-Raspberry Swiss Roll"
+        },
+        {
+            "asset_url": "https://www.bhg.com/kitchen/remodeling/makeover/weekend-kitchen-makeover/",
+            "headline": "4 Clever Ways to Bring Nature Indoors",
+            "brand": "Better Homes & Gardens",
+            "$imageThumbnailUrl": "https://images-eu.ssl-images-amazon.com/images/I/5193DFdZadL._SX342_QL70_ML2_.jpg"
         }
     ]
 }

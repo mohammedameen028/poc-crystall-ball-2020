@@ -26,16 +26,18 @@ const useStyles = makeStyles(theme => ({
     },
 }))
 
-const handleSubmit = (e, props) => {
+const handleSubmit = (e, props, timeBased) => {
     props.history.push({
       pathname: `/ArticleList`,
+      state: {timeBased}
     });
   }
 
   
 
 export default function Payment(props){
-    console.log("inside payemnt");
+    console.log("inside payemnt",props);
+    const {timeBased} = props
     const classes = useStyles();
 
     const [open, setOpen] = React.useState(false);
@@ -50,14 +52,15 @@ export default function Payment(props){
     
     return (
       <div className="headerPayment">
-        <Typography component="h4" variant="h5" color="textPrimary">
+        
+        <Paper className={classes.paper}>
+          <Typography component="h5" variant="h6" color="textPrimary">
           Payment Information:
         </Typography>
-        <Paper className={classes.paper}>
           <div className="NextButton containerClass">
-            <form>
+            <form className="formContainer">
               <div>
-                <div className="payMentText">Select Payment Method</div>
+                <div className="payMentText">Select a Payment Method</div>
                 <div className="cards">
                   <img src="https://d2ldlvi1yef00y.cloudfront.net/default/us/live/lwa/gold/medium/PwA.png" />
                 </div>
@@ -81,7 +84,7 @@ export default function Payment(props){
                   </label>
                 </div>
               </div>
-              <div>
+              <div className="card-Name">
                 <input
                   className="form-row"
                   size="30"
@@ -89,13 +92,15 @@ export default function Payment(props){
                   placeholder="Name on Card"
                 />
               </div>
-              <div>
+              <div className="card-Number">
                 <input
                   className="form-row"
                   size="20"
                   type="text"
                   placeholder="Card Number"
                 />
+              </div>
+              <div className="card-Small-Details">
                 <input
                   className="form-row"
                   placeholder="ex. 311"
@@ -103,8 +108,6 @@ export default function Payment(props){
                   type="text"
                   placeholder="CVV"
                 />
-              </div>
-              <div>
                 <input
                   className="form-row"
                   placeholder="MM"
@@ -118,7 +121,9 @@ export default function Payment(props){
                   type="text"
                 />
               </div>
-              Total:30$
+              <div className="totalValue">
+                Total: ${props.val*6}
+              </div>
               <div className="logoImages">
                 <Button
                   variant="contained"
@@ -140,7 +145,7 @@ export default function Payment(props){
         <DialogTitle id="alert-dialog-slide-title">{"Congratulation!!!"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            Now you are subscribed to Bing Me application.
+            Now you are subscribed to Binge Read application.
           </DialogContentText>
         </DialogContent>
         <DialogActions>
@@ -148,7 +153,7 @@ export default function Payment(props){
             Back
           </Button>
           <Button onClick={e => {
-                    handleSubmit(e, props);
+                    handleSubmit(e, props, timeBased);
                   }} color="primary">
             Continue
           </Button>

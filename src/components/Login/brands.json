@@ -1,121 +1,144 @@
 {
         "data": [
         {
-                "id":"095769961482edee01a241e51a074103",
-                "name":"allrecipes",
-                "logo":"https://secureimages.allrecipes.com/ar-images/ARlogo.svg"
+        "id":"095769961482edee01a241e51a074103",
+        "name":"allrecipes",
+        "logo":"https://secureimages.allrecipes.com/ar-images/ARlogo.svg",
+        "selected": false
         },
         {
-                "id":"095769961482edee01a241e51a074103",
-                "name":"myrecipes",
-                "logo":"https://onecms.io/wp-content/themes/onecms-myrecipes/assets/logos/color.svg"
+        "id":"095769961482edee01a241e51a074103",
+        "name":"myrecipes",
+        "logo":"https://onecms.io/wp-content/themes/onecms-myrecipes/assets/logos/color.svg",
+        "selected": false
         },
        
         {
         "id": "b494859f2323f8535dc15df547f2e8df",
         "name": "Coastal Living",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/coastalliving_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/coastalliving_logo.svg",
+        "selected": false
         },
         {
         "id": "208ef5ec7e138fb2e9f40668a9364589",
         "name": "Cooking Light",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/cookinglight_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/cookinglight_logo.svg",
+        "selected": false
         },
         {
         "id": "c84a254a82017abff0d5e695cfdca415",
         "name": "Food & Wine",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/foodwine_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/foodwine_logo.svg",
+        "selected": false
         },
         {
         "id": "1d67f483b0000b31473fe9a1708e68eb",
         "name": "Golf",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golf_logo1.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golf_logo1.svg",
+        "selected": false
         },
         {
         "id": "f428df0e3a6c3bbe73b4bed1e0831bb7",
         "name": "Golf Monthly",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golfmonthly_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/golfmonthly_logo.svg",
+        "selected": false
         },
         {
                 "id": "c3edc06c3a4a9e103f4c76a28d08abda",
                 "name": "InStyle",
-                "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/instyle_logo.svg"
+                "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/instyle_logo.svg",
+                "selected": false
         },
         {
         "id": "32a2f3e0dee8d733d4209c5752423859",
         "name": "Health",
-        "logo": "http://img2.timeinc.net/health/static/i/health-logo-blue.png"
+        "logo": "http://img2.timeinc.net/health/static/i/health-logo-blue.png",
+        "selected": false
         },
         {
         "id": "c8c71147a8e83c2b93b5ff4557028096",
         "name": "Homes & Gardens",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/homesandgardens_logo_wht.svg"
+        "logo": "https://www.shootfactory.co.uk/wp-content/uploads/2012/04/HG-Logo-Mar-07-Black.jpg",
+        "selected": false
         },
         
         {
         "id": "2920fa3cc18179e973eeaf1a6fe9728c",
         "name": "Life",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1920px-LIFE_magazine_logo.svg.png"
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1920px-LIFE_magazine_logo.svg.png",
+        "selected": false
         },
         {
         "id": "c60782e796be662c6177242f89351537",
         "name": "People",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/people_logo1.png"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/people_logo1.png",
+        "selected": false
         },
         {
         "id": "095769961482edee01a241e51a074103",
         "name": "People StyleWatch",
-        "logo": ""
+        "logo": "https://periosciences.com/wp-content/uploads/2018/10/People_StyleWatch.svg",
+        "selected": false
         },
         {
                 "id": "b496baf7bc768078e47a337087f71ed6",
                 "name": "Business 2.0",
-                "logo": "https://c2.staticflickr.com/2/1034/1484708354_70519d6a2f_z.jpg"
+                "logo": "https://c2.staticflickr.com/2/1034/1484708354_70519d6a2f_z.jpg",
+                "selected": false
         },
         {
         "id": "84da6d8bcd81b4b245416b4981c3f05a",
         "name": "People en Español",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/peopleenespanol_NEWLOGO.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/peopleenespanol_NEWLOGO.svg",
+        "selected": false
         },
         {
         "id": "2e1094dd8d4f4f37d4ced9b4b261ed5f",
         "name": "Real Simple",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/realsimple_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/realsimple_logo.svg",
+        "selected": false
         },
         {
         "id": "8a4b572bface1505fa5f5e39b9820184",
         "name": "Southern Living",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/southernliving_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/02/southernliving_logo.svg",
+        "selected": false
         },
         {
         "id": "9505b92dc12d17d8929f75054bd519df",
         "name": "Sports Illustrated",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/SportsIllusREDShadow_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/04/SportsIllusREDShadow_logo.svg",
+        "selected": false
         },
         {
         "id": "edc20a053956d5de337a114e24d6171e",
         "name": "Sports Illustrated Kids",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/sikids_logo1.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/sikids_logo1.svg",
+        "selected": false
         },
         {
         "id": "94c385132063b4be33c157da7a7b84df",
         "name": "Sports Illustrated Presents",
-        "logo": ""
+        "logo": "https://cdn1.thecomeback.com/wp-content/uploads/sites/94/2015/05/Sports-Illustrated.png",
+        "selected": false
         },
         {
                 "id": "b06ab434f3ac747210f0a83a77e6ef75",
                 "name": "Entertainment Weekly",
-                "logo": "http://www.ew.com/sites/all/themes/ew_com/img/ew-mobile-logo-full.png"
+                "logo": "https://www.logolynx.com/images/logolynx/4e/4ecb46747ec082cd667fcd37a33763f8.jpeg",
+                "selected": false
                 },
         {
                 "id": "49e60428570a609066fab5fa4021d3fc",
                 "name": "All You",
-                "logo": "http://cdn-png.allyou.com/sites/default/files/ALLYOU-logo.png"
+                "logo": "https://capriciouslyinspired.files.wordpress.com/2011/09/allyou-logo-l.jpg",
+                "selected": false
         },
         {
         "id": "1dd937657e78fe5e715dbb8c5a3e1da0",
         "name": "Travel + Leisure",
-        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/travelleisure_logo.svg"
+        "logo": "http://www.timeinc.com/wp-content/uploads/2014/03/travelleisure_logo.svg",
+        "selected": false
         }
         ],
         "timestamp": "2020-01-13T15:17:35.231634"

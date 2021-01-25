@@ -4,13 +4,7 @@ import image1 from './assests/Meredith_logo.png'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import BackgroundSlideshow from 'react-background-slideshow'
-import image2 from './assests/Meredith_logo.png'
-import image3 from './assests/Meredith_logo.png'
-import image4 from './assests/Meredith_logo.png'
-
  
-
 export default class Home extends React.Component{
 
     constructor(props){
@@ -33,14 +27,14 @@ export default class Home extends React.Component{
 
         
         console.log("submit The value!!!");
-        this.props.history.push('/home');
+        this.props.history.push('/Subscription');
     }
 
     render(){
         return(
             <div>
             <AppBar position="static">
-            <Toolbar variant="dense" style = {{background:"white"}}>
+            <Toolbar variant="dense" style = {{background:"white", height:"75px"}}>
               <Typography variant="h6" color="primary">
                     <img src={image1} alt="Meredith Logo" /> 
               </Typography>
@@ -53,7 +47,7 @@ export default class Home extends React.Component{
                     <img src={image1} alt="Meredith Logo" />
                 </div>
                 <form onSubmit={this.handleSubmit}>
-                <input id="tab-1" type="radio" name="tab" className="sign-in" checked /><label for="tab-1" className="tab">Login In</label>
+                <input id="tab-1" type="radio" name="tab" className="sign-in" checked /><label for="tab-1" className="tab">Log In</label>
                 <input id="tab-2" type="radio" name="tab" className="sign-up" /><label for="tab-2" className="tab">Register</label>
                 <div className="login-form">
                     <div className="sign-in-htm">
